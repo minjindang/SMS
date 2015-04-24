@@ -1,0 +1,7 @@
+sms2.java	: sms2元件原始碼sms2.class	: sms2 classsend.java	: 傳送文字簡訊的範例send_order.java	: 傳送文字簡訊的範例query.java	: 查詢傳送結果的範例recv.java	: 接收回傳的文字簡訊cancel.java	: 取消預約簡訊
+1.編譯send.java
+  javac send.java
+2.執行send範例
+  格式 : java send id passwd tel message
+  範例 : java send test test123 0910123xxx HiNet簡訊!
+
